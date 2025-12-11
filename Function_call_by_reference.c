@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // Function prototype
-void swap(int *x, int *y);
+// void swap(int *x, int *y); // Original
+void swap(int *, int *) // Modified // No need to specify the variable names in function prototype
 
 int main() {
     int a, b;
